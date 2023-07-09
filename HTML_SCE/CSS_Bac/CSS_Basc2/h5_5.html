@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>표 응용 1</title>
+        <style>
+        table { 
+            border-collapse : collapse; 
+        }
+        td, th { 
+            text-align : left;
+            padding : 5px;
+            height : 15px; 	
+            width : 100px;
+        }
+        thead, tfoot { 
+            background : darkgreen;
+            color : white;
+        }
+        /*tbody tr:nth-child(odd) { /* 짝수가 even 홀수가 odd*/
+            /*background :brown;
+       /* }*/
+        tbody tr:hover {
+            background : brown;
+        }
+        </style>
+    </head>
+    <body>
+    <h3>기말고사 성적 리스트</h3>
+    <hr>
+    <table>
+        <thead>
+            <tr><th>학번</th><th>이름</th><th>성적</th><th>학점</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Bill</td><td>98</td><td>A+</td></tr>
+            <tr><td>2</td><td>Steve</td><td>89</td><td>B+</td></tr>
+            <tr><td>3</td><td>Larry</td><td>93</td><td>A-</td></tr>
+            
+        </tbody>
+    </table>
+    </body>
+</html>
+
+

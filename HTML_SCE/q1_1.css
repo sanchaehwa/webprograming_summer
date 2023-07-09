@@ -1,0 +1,10 @@
+#textbox{
+    width: 700px;
+    height: 800px;
+}
+#textbox img{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+  
+}

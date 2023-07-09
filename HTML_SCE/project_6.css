@@ -1,0 +1,189 @@
+#fullscreen{
+    width: 1500px;
+    height: 2600px;
+   
+}
+
+
+#box1 {
+    width: 300px;
+    height: 50px;
+  
+    float: left;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+    font-family: 'Hahmlet', serif;
+    bottom: 40px;
+    left: 10px;
+    text-align: left;
+    position: relative;
+
+}
+#menu{
+    width: 990px;
+    height: 70px;
+  
+    display: inline-block
+}
+#login{
+    width:190px;
+    height:40px;
+  
+    display: inline-block;
+    bottom: 40px;
+    left: 10px;
+    text-align: right;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+
+}
+#hibox{
+    width:900px;
+    height:200px;
+    padding: 30px;
+    margin: 150px;
+    position : relative;
+    left: 200px;
+
+}
+#hi{
+    width:130px;
+    height:130px;
+    position: relative;
+    right: 30px;
+}
+#hi2{
+    width:700px;
+    height:75px;
+    margin: 20px;
+    position: relative;
+    left: 70px;
+    font-size: 35px;
+    bottom:50px;
+    font-family: 'Hahmlet', serif;
+
+}
+#intro{
+    width: 960px;
+    height: 400px;
+
+    position: relative;
+    left: 345px;
+    bottom: 200px;
+}
+.photobox{
+    width: 400px;
+    height: 400px;
+
+    position:relative;
+    right:10px;
+
+}
+.img1{
+    position:relative;
+    left: 50px;
+    top: 30px;
+    position:relative;
+    left: 80px;
+   
+
+}
+.img2{
+    position:absolute;
+    left: 80px;
+    top: 30px;
+    display:none;
+
+}
+.photobox:hover .img2 {
+    display: block;
+}
+#contact{
+    width: 560px;
+    height: 250px;
+    
+    position: relative;
+    left: 400px;
+    bottom: 340px;
+  
+
+}
+#con2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+    
+}
+#hr3{
+    position: relative;
+    bottom: 0px;
+    width: 450px;
+    bottom: 30px;
+}
+#con1{
+    font-family: 'Gowun Batang', serif;
+    line-height: 2;
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: none;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+
+
+}
+a{
+    color:rgb(0, 0, 0);
+}
+
+
+#hello{
+    
+    width: 960px;
+    height: 400px;
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+    line-height: 3;
+    font-family: 'Hahmlet', serif;
+
+}
+#stack{
+    margin: 20px;
+    width: 960px;
+    height: 400px;
+    position: relative;
+    left: 325px;
+    bottom: 200px;
+
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+ 
+}
+#wor1{
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+}
+
+
+#wor3{
+    font-family: 'Gowun Batang', serif;
+    line-height: 2;
+    font-size: 18px;
+    list-style-type: none;
+}
+#Experiences{
+    margin: 20px;
+    width: 960px;
+    height: 550px;
+    position: relative;
+    left: 325px;
+    bottom: 170px;
+
+    font-family: 'Hahmlet', serif;
+
+
+}

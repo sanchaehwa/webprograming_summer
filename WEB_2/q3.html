@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+            function OnButtonDown(button){
+                button.style.color="white";
+                button.style.backgroundColor = "green";
+            }
+            function OnButtonUp(button){
+                button.style.color="black";
+                button.style.backgroundColor = "lightgray";
+            }
+        </script>
+    </head>
+    <body>
+        <button onmousedown = "OnButtonDown(this)" onmouseup="OnButtonUp(this)">눌러보세요!</button>
+    </body>
+</html>

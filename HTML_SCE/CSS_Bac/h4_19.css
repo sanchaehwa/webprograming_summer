@@ -1,0 +1,13 @@
+h1 {
+    text-shadow: px 2px 4px #000000;
+}
+image-box:hover{
+	box-shadow : 10px 10px red;
+}
+image-box img:hover{
+	box-shadow : 10px 10px 5px skyBlue;
+}
+image-box:hover img:hover{
+	box-shadow : 2px 2px 2px black, 
+			    			0 0 25px blue,
+}

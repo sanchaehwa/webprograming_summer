@@ -1,0 +1,1 @@
+document.documentElement.innerHTML = "<span style = 'width:200px; height: 40px; border: solid 1px black '> 텍스트 위에 마우스를 올리면 테두리 선이 보입니다. </span>" 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head><title>버튼이 있는 입력 폼</title></head>
+<body>
+<h3>버튼을 만들자</h3>
+<hr>
+<form>
+	검색: <input type="text" size="10" value="">
+  			<input type="button" value="Q1">
+  			<button type="button">Q2</button><p>  
+	submit 버튼 : <input type="submit" value="전송1">
+						 <button type="submit">전송2</button><p>  
+	reset 버튼 :   <input type="reset" value="리셋1">
+					    <button type="reset">리셋2</button><p>  
+	이미지버튼 :  <input type="image" src="media/button.png" 
+								alt="이미지 버튼">
+						<button type="button">
+								<img src="media/button.png" alt="이미지 버튼">
+						</button>
+</form>
+<p>
+<h3>먹고 싶은 것 모두 체크하세요</h3>
+<hr>
+<form>
+	짜장면 <input type="checkbox" value="1">
+	짬뽕 <input type="checkbox" value="2" checked>
+	탕수육 <input type="checkbox" value="3">
+</form>
+<p>   
+    <h3>먹고 싶은 음식은?</h3>
+    <hr>
+    <form>
+        <select name="china">
+            <option value="1">짜장면</option>
+            <option value="2" selected>짬뽕</option>
+            <option value="3">탕수육</option>
+        </select>
+    </form>
+<hr>
+<h3>컬러다이얼로그로 색 입력</h3>
+<hr>
+<form>
+	색 선택
+	<input type="color" value="#00BFFF" 
+				onchange=
+					"document.body.style.color=this.value">
+</form>
+<hr>
+<html>
+<head><title>형식을 가진 텍스트 입력</title></head>
+<body>
+<h3>회원 정보를 입력해주세요.</h3>
+<hr>
+<form>
+	email : <input type="email" placeholder="id@host"><p>     
+	홈페이지 : <input type="url" placeholder="http://"><p>  
+	전화번호 : <input type="tel" placeholder="010-1234-5678"> <p> 
+    <div align = "center"> 
+	<input type="submit" value="확인"> <p> 
+    </div>
+<hr>
+	검색어 : <input type="search" placeholder="검색어">
+				<input type="button" value="검색">
+</form>
+
+</body>
+</html>

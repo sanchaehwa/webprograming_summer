@@ -1,0 +1,44 @@
+#fullscreen{
+        width: 1440px;
+        height: 1440px;
+  
+        background-color:rgb(255, 249, 241);
+}
+div {
+    margin: auto;
+    width: 400px;
+    background-color: #b6c9ee;
+    border-radius: 5px;
+    text-align: center;
+    padding: 100px;
+    position:relative;
+    top: 100px;
+    font-family: 'Gowun Batang', serif;
+}
+.font{
+    font-family: 'Gowun Batang', serif;
+    font-size: 30px;
+}
+input {
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+
+.in {
+    margin-bottom: 10px;
+}
+
+#btn {
+    background-color: #1BBC9B;
+    margin-bottom: 30px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+}

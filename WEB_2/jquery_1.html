@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>문제 3번</title>
+    </head>
+    <body>
+        <script>
+        function arrayCalc(arr) {
+        var sum = 0;
+        $.each(arr, function(index, value) {
+            sum += value;
+        });
+        var average = sum / arr.length;
+        return Math.floor(average); //MainFloor 함수는 소수점 없애주는 역할 
+        }
+
+        var arr = [10, 20.7, 30, 5.9, 7];
+        var result = arrayCalc(arr);
+        document.write("배열의 평균은 " + result + "<br>");
+        </script>
+    </body>
+</html>

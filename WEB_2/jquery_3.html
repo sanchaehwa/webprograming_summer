@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>문제 3번</title>
+</head>
+<body>
+  <input type="text" id="inputText" placeholder="문자열을 입력하세요" />
+  <br>
+  <pre id="output"></pre>
+
+  <script>
+    $(document).ready(function() {
+      $('#inputText').on('input', function() {
+        var input = $(this).val();
+        var output = '';
+        
+        for (var i = 0; i <= input.length; i++) {
+          output += input.substring(0, i) + "\n";
+        }
+        
+        $('#output').text(output);
+      });
+    });
+  </script>
+</body>
+</html>
